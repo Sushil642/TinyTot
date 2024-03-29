@@ -1,39 +1,39 @@
-Child Management System
+# Child Management System
 This project is a Child Management System built using Flask, SQLAlchemy, and Flask-Login. It allows users to manage children's information, attendance, class details, reminders, and user authentication.
 
-Table of Contents
+## Table of Contents
 Installation
 Usage
 Features
 Contributing
 License
 Contact
-Installation <a name="installation"></a>
+## Installation <a name="installation"></a>
 To run this project locally, follow these steps:
 
-Clone the repository:
+**Clone the repository:**
 
 bash
 Copy code
-git clone https://github.com/your-username/child-management-system.git
+git clone https://github.com/Sushil642/TinyTot.git
 Navigate to the project directory:
 
 bash
 Copy code
 cd child-management-system
-Install dependencies:
+**Install dependencies:**
 
 Copy code
 pip install -r requirements.txt
 Set up the MySQL database. Ensure that you have MySQL installed and running on your system. Update the database_uri in app.py with your database credentials.
 
-Run the Flask application:
+**Run the Flask application:**
 
 Copy code
 python app.py
 Access the application in your web browser at http://localhost:5000/.
 
-Usage <a name="usage"></a>
+## Usage <a name="usage"></a>
 Sign Up: Users can sign up for an account by providing a username, email, and password.
 
 Login: Registered users can log in using their email and password.
@@ -46,7 +46,7 @@ Classroom Management: Users can add details about classrooms, including the prog
 
 Reminders: Users can view reminders for various actions related to children.
 
-Features <a name="features"></a>
+## Features <a name="features"></a>
 User authentication with Flask-Login
 Database management with SQLAlchemy
 CRUD operations for child records, attendance, classrooms, and reminders
