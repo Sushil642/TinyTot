@@ -11,23 +11,21 @@ Contact
 ## Installation <a name="installation"></a>
 To run this project locally, follow these steps:
 
-**Clone the repository:**
+### **Clone the repository:**
 
-bash
-Copy code
-git clone https://github.com/Sushil642/TinyTot.git
-Navigate to the project directory:
+git clone  https://github.com/Sushil642/TinyTot.git
 
-bash
-Copy code
+### Navigate to the project directory:
+
 cd child-management-system
-**Install dependencies:**
 
-Copy code
+ ### **Install dependencies:**
+
 pip install -r requirements.txt
+
 Set up the MySQL database. Ensure that you have MySQL installed and running on your system. Update the database_uri in app.py with your database credentials.
 
-**Run the Flask application:**
+### **Run the Flask application:**
 
 Copy code
 python app.py
