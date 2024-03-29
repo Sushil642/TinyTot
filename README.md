@@ -1,3 +1,68 @@
+Child Management System
+This project is a Child Management System built using Flask, SQLAlchemy, and Flask-Login. It allows users to manage children's information, attendance, class details, reminders, and user authentication.
+
+Table of Contents
+Installation
+Usage
+Features
+Contributing
+License
+Contact
+Installation <a name="installation"></a>
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/child-management-system.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd child-management-system
+Install dependencies:
+
+Copy code
+pip install -r requirements.txt
+Set up the MySQL database. Ensure that you have MySQL installed and running on your system. Update the database_uri in app.py with your database credentials.
+
+Run the Flask application:
+
+Copy code
+python app.py
+Access the application in your web browser at http://localhost:5000/.
+
+Usage <a name="usage"></a>
+Sign Up: Users can sign up for an account by providing a username, email, and password.
+
+Login: Registered users can log in using their email and password.
+
+Child Management: Users can add, edit, and delete child records. Each child record includes details such as roll number, name, gender, parent email, parent number, and address.
+
+Attendance Management: Users can add attendance for each child by providing the roll number and attendance details.
+
+Classroom Management: Users can add details about classrooms, including the program and teacher's name.
+
+Reminders: Users can view reminders for various actions related to children.
+
+Features <a name="features"></a>
+User authentication with Flask-Login
+Database management with SQLAlchemy
+CRUD operations for child records, attendance, classrooms, and reminders
+Flash messages for user notifications
+Contributing <a name="contributing"></a>
+Contributions to this project are welcome! Here are a few ways you can contribute:
+
+Report bugs and issues
+Suggest new features or enhancements
+Submit pull requests
+License <a name="license"></a>
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact <a name="contact"></a>
+For any inquiries or support, please contact rajputsushil642@gmail.com.
+
 ![Screenshot 2024-03-18 112633](https://github.com/Sushil642/TinyTot/assets/120037228/49462376-141a-4a7f-8bef-bb6c382eac63)
 ![Screenshot 2024-03-19 004849](https://github.com/Sushil642/TinyTot/assets/120037228/4ae831f9-42c1-42b4-a842-450b6361f26a)
 ![Screenshot 2024-03-19 004904](https://github.com/Sushil642/TinyTot/assets/120037228/fb6f9f80-5f83-4302-8553-4b112921009e)
